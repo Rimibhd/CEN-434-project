@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="ruyi">Fibonacci LOL</p>
+</body>
+<script>
+    document.getElementById("ruyi")
+    let a = [];
+    let p = 100;
+    for (var i = 0; i < p; i++) {
+        if (i == 0) {
+            a[i] = 0;
+        } else if (i == 1) {
+            a[i] = 1;
+        } else {
+            a[i] = a[i - 1] + a[i - 2];
+        
+        console.log(a[i]);
+    }
+    }
+    
+</script>
+</html>
